@@ -21,8 +21,7 @@ $_SESSION['alogin']=$_POST['username'];
 echo "<script type='text/javascript'> document.location ='admin/dashboard.php'; </script>";
 } else{
 echo "<script>alert('Invalid Details');</script>";
-}
-}
+}}
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
